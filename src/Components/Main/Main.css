@@ -52,4 +52,23 @@
 .welcome_text{
     text-align: center;
     margin-top: 250px;
+    margin-bottom: 100px;
+}
+.welcome_text h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.welcome_text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 14px;
+}
+.welcome_text p:last-child{
+    margin-top: 20px;
+}
+.owner_stats_image{
+    background-image: url("https://www.nopcommerce.com/App_Themes/moderndesign/images/trusted-background.jpg");
+    height: 430px;
 }

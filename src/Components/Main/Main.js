@@ -30,6 +30,12 @@ function Main(props){
                 <p>of open-source and commercial software.</p>
                 <p>The platform has everything you need to <span><a href="#">get started</a></span> and grow your eCommerce business.</p>
             </div>
+            <div className="owner_stats_image">
+                <div className="dotted_box">
+                    <p>Trusted by over<strong>50,000</strong> store owners.</p>
+                    <p>Downloaded more than <strong>2,500,000</strong> times</p>
+                </div>
+            </div>
         </div>
     )
 }

@@ -76,3 +76,7 @@ margin: 0;
 .text_align_center{
     text-align:center;
 }
+.dotted_box{
+    border: 2px dashed white;
+    color: white;
+}
