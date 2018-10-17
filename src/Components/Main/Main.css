@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.hero_image{
+    background-image: url("https://www.nopcommerce.com/App_Themes/moderndesign/images/main-background.jpg");
+    /* background-size: cover; */
+    height: 640px;
+}
+.center_content{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    text-transform: uppercase;
+}
+.center_content h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.center_content h3{
+    text-transform: initial;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom: 27px;
+}
+.hero_btn{
+    margin-right: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px 33px;
+    border-width: 0px;
+    color: white;
+    border-width: thin;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: none;
+}
+.green_btn{
+    background: #31bfad;
+    border-color: #1f9f8f;
+}
+.blue_btn{
+    background: #4ab2f1;
+    border-color: #3698d3;
+}
+.devices_images{
+    margin-top: 90px;
+}
+.welcome_text{
+    text-align: center;
+    margin-top: 250px;
+}
