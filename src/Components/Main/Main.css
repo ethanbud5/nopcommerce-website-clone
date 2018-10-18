@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-
+body{
+    overflow-x: hidden;
+}
 .hero_image{
     background-image: url("https://www.nopcommerce.com/App_Themes/moderndesign/images/main-background.jpg");
     /* background-size: cover; */
@@ -71,4 +74,145 @@
 .owner_stats_image{
     background-image: url("https://www.nopcommerce.com/App_Themes/moderndesign/images/trusted-background.jpg");
     height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dotted_box{
+    border: 2px dashed white;
+    color: white;
+    width: 670px;
+    height: 100px;
+    border-bottom: none;
+    background: url(https://www.nopcommerce.com/App_Themes/moderndesign/images/trusted-border.png) no-repeat bottom left,url(https://www.nopcommerce.com/App_Themes/moderndesign/images/trusted-border.png) no-repeat bottom right;
+}
+.dotted_box p{
+    font-size: 31px;
+    text-align: center;
+    line-height: 15px;
+}
+.dotted_box :first-child{
+    padding-top: 11px;
+}
+.conference_promo_container{
+    background-image: url(https://www.nopcommerce.com/App_Themes/moderndesign/images/conference-bg-2.jpg);
+    height: 780px;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    border-top: 2px solid rgb(202, 198, 198)
+}
+.share_banner{
+    position: relative;
+    top:40px;
+    left: 15px;
+    cursor: pointer;
+    height: 221px;
+    width: 250px;
+}
+.promo_text_container{
+    text-align: center;
+    margin-top: -200px;
+    /* display: inline-block; */
+}
+.promo_text_container h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.promo_text_container .date_text{
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.promo_text_container button{
+    border-color: white;
+    margin-right: 0px;
+}
+.transparent_background_container{
+    background-color: #ffffffa1;
+    height: 250px;
+    width:100vw;
+    margin-top: 40px;
+}
+.opacity_background{
+    height: 780px;
+    background: #2a94e226;
+}
+.background_darker{
+    height: 239px;
+    width: 100vw;
+    background: #0000008c;
+}
+.big_name{
+    padding-top: 12px;
+    color: #757474;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.company_box_container{
+    display: flex;
+    width: 1152px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: -29px;
+}
+.company_box{
+    width: 200px;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 21px;
+    margin: 4px;
+}
+.company_box img{
+    max-width: 100%;
+    height: auto;
+}
+.company_box p{
+    color: #504d4d;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.conf_theme{
+    color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conf_theme h2{
+    margin:0px;
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.conf_theme ul{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    list-style: none;
+}
+.conf_theme ul li::before{
+    content: "\25CF";
+    color: #9bd5f6;
+    height: 15px;
+    width: 15px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
